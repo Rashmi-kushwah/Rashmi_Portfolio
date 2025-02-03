@@ -1,0 +1,109 @@
+/* Overall Contact Section */
+.contact-section {
+    background-color: black; /* Background color for the entire section */
+    padding: 50px 20px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.6);
+    margin-top: 10px;
+  }
+  
+  /* Text Container (Heading & Subheading) */
+  .contact-text {
+    max-width: 600px;      /* Limit width of text */
+    margin: 0 auto;        /* Center horizontally */
+    text-align: center;    /* Center the text */
+  }
+  
+  /* Heading Styling */
+  .contact-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;             /* Remove default margins */
+  }
+  
+  /* Subheading Styling */
+  .contact-subheading {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    background-color: #ffffff; /* White background for the form */
+    color: #333333;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;          /* Fixed maximum width */
+    width: 100%;               /* Use full width up to max-width */
+    margin: 30px auto 0 auto;   /* Center the form with spacing on top */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .contact-form:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Fields and Select Box */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    color: #333333;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    background-color: #ffffff;
+    border-color: #60a5fa;
+    outline: none;
+  }
+  
+  /* Textarea Specifics */
+  textarea {
+    height: 150px;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    color: #333333;
+  }
+  
+  /* Submit Button Styling */
+  .submit-btn {
+    background-color: #4f86e0;
+
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .submit-btn:hover {
+    background-color: #4f86e0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 30px 10px;
+    }
+  
+    .contact-form {
+      padding: 1.5rem;
+    }
+  
+    .input-field {
+      font-size: 0.9rem;
+    }
+  }
+  

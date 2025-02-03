@@ -1,0 +1,41 @@
+
+.left, .right {
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  opacity: 2;  /* Start invisible */
+  transform: translateX(100px); /* Slide-in effect */
+}
+
+/* Animation when scroll triggers */
+.scroll-active {
+  opacity: 1; /* Becomes visible */
+  transform: translateX(0); /* Moves to original position */
+}
+
+
+/* Image Section Animation for Scroll */
+.right img {
+  transform: translateX(100px);
+  opacity: 1;
+ 
+}
+
+/* When scrolled */
+.homepage.scrolled .left {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.homepage.scrolled .right img {
+  transform: translateX(1);
+  opacity: 1;
+}
+.education-skills {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.education-skills.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
