@@ -1,6 +1,6 @@
 
+![screencapture-localhost-3000-2025-02-03-07_42_42](https://github.com/user-attachments/assets/dfaffe0a-fd49-47bd-8ef0-46f354bfe446)
 
-![screencapture-localhost-3000-2025-02-03-07_42_42](https://github.com/user-attachments/assets/b3058f1d-2ec3-446f-a88a-8fb8382d25f9)
 
 # Getting Started with Create React App
 
